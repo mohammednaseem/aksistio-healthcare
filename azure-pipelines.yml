@@ -24,7 +24,7 @@ stages:
   displayName: Build and push stage
   jobs:  
   - job: Build
-    displayName: Build
+    displayName: Build and push to container registry
     pool:
       vmImage: $(vmImageName)
     steps:
