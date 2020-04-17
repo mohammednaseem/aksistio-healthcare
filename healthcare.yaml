@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: healthcare-api
-        image: emersso.azurecr.io/healthcare:11.0.5
+        image: dockerstore.azurecr.io/healthcare:##BUILD_ID##
         resources:
           requests:
             memory: "32Mi"

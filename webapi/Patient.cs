@@ -5,13 +5,14 @@ namespace Healthcare
     public class Patient
     { 
 
-        public int PatientId { get; set; }
+        public int Id { get; set; }
+        
+        public string Name { get; set; }
 
-        public string PatientName { get; set; }
+        public string HospitalAdmitted { get; set; }
+        public string Benefits { get; set; }
 
-        public string PatientBenefits { get; set; }
-
-        public string PatientInsurance { get; set; }
+        public string Insurance { get; set; }
         public string Summary { get; set; }
     }
 }
