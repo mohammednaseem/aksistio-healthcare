@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: healthcare-api
-        image: dockerstore.azurecr.io/healthcare:##BUILD_ID##
+        image: dockerstore.azurecr.io/healthcare:157
         resources:
           requests:
             memory: "32Mi"
